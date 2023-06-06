@@ -16,12 +16,12 @@
       min-width: 350px;
       height: 100vh;
       top: 0;
-      right: -100%;
+      left: -100%;
       padding: 90px 50px;
       visibility: hidden;
       overflow-y: auto;
       transition: 0.5s;
-      transition-property: right, visibility;
+      transition-property: left, visibility;
     }
   
     header.sticky .navigation{
@@ -29,7 +29,7 @@
     }
   
     header .navigation .menu.active{
-      right: 0;
+      left: 0;
       visibility: visible;
     }
   
